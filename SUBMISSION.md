@@ -29,4 +29,4 @@ Added my screen captures to a new directory called [images](images).
 ![gh-passed-build](images/gh-passed-build.jpg) <br>
 ![gh-passed-build-details](images/gh-passed-build-details.jpg)
 - Your GitHub repository with the readme.md file selected showing the build success status after the GitHub workflow has recovered. <br>
-![gh-passed-readme](gh-passed-readme.jpg)
+![gh-passed-readme](images/gh-passed-readme.jpg)
