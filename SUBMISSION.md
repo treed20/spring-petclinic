@@ -5,34 +5,34 @@ Added my screen captures to a directory called [images/hw8](images/hw8).
 
 ## Deliverables
 
-###DOCKER
+### DOCKER
 - Your dockerfile. Please provide a link to this file rather than a screen capture. <br>
-[Dockerfile](images/hw8/)
+[Dockerfile](Dockerfile)
 - Your running docker instance as shown by a ps command. <br>
-[docker-docker-ps](images/hw8/docker-docker-ps.jpg)
+![docker-docker-ps](images/hw8/docker-docker-ps.jpg)
 - Your browser accessing the main page of the website from your local container.<br>
-[docker-browser](images/hw8/docker-browser.jpg)
-###DOCKER COMPOSE - MYSQL ONLY
+![docker-browser](images/hw8/docker-browser.jpg)
+### DOCKER COMPOSE - MYSQL ONLY
 - The output from the docker-compose up command. <br>
-[compose-sqlonly-compose-up](images/hw8/compose-sqlonly-compose-up.jpg)
+![compose-sqlonly-compose-up](images/hw8/compose-sqlonly-compose-up.jpg)
 - Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system. <br>
-[compose-sqlonly-vets](images/hw8/compose-sqlonly-vets.jpg)
+![compose-sqlonly-vets](images/hw8/compose-sqlonly-vets.jpg)
 - A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL. <br>
-[compose-sqlonly-err0](images/hw8/compose-sqlonly-err0.jpg) <br>
-[compose-sqlonly-err6](images/hw8/compose-sqlonly-err6.jpg) <br>
-[compose-sqlonly-err7](images/hw8/compose-sqlonly-err7.jpg) <br>
-[compose-sqlonly-err8](images/hw8/compose-sqlonly-err8.jpg) <br>
+![compose-sqlonly-err0](images/hw8/compose-sqlonly-err0.jpg) <br>
+![compose-sqlonly-err6](images/hw8/compose-sqlonly-err6.jpg) <br>
+![compose-sqlonly-err7](images/hw8/compose-sqlonly-err7.jpg) <br>
+![compose-sqlonly-err8](images/hw8/compose-sqlonly-err8.jpg) <br>
 
-###DOCKER COMPOSE - APP SERVER AND MYSQL
+### DOCKER COMPOSE - APP SERVER AND MYSQL
 - Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture. <br>
 [docker-compose.yml](docker-compose.yml)
 - Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture. <br>
 [application-mysql.properties](src/main/resources/application-mysql.properties)
 - The output from the docker-compose up command. <br>
-[compose-appsql-compose-up](images/hw8/compose-appsql-compose-up.jpg)<br>
-[compose-appsql-compose-up2](images/hw8/compose-appsql-compose-up2.jpg)
+![compose-appsql-compose-up](images/hw8/compose-appsql-compose-up.jpg)<br>
+![compose-appsql-compose-up2](images/hw8/compose-appsql-compose-up2.jpg)
 - Your browser accessing the “Veterinarians” page of the website from your local container. <br>
-[compose-appsql-browser-vet](images/hw8/compose-appsql-browser-vet.jpg)
+![compose-appsql-browser-vet](images/hw8/compose-appsql-browser-vet.jpg)
 
 
 
